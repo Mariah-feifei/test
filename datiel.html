@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" type="text/css" href="css/iconfont.css"/>
+		<link rel="stylesheet" type="text/css" href="css/index.css" />
+		<link rel="stylesheet" type="text/css" href="css/datiel.css" />
+		<title>详情页</title>
+		<script type="text/javascript">
+			window.onload=function(){
+				var fs=document.documentElement.clientWidth/750*100;
+				document.querySelector('html').style.fontSize=fs+'px';
+			}
+		</script>
+	</head>
+	<body>
+		<header>
+			<a href=""><i class="iconfont icon-fanhui "></i></a>
+			<span>盈信计划2467号1期</span>
+			<a href=""><i class="iconfont icon-caidan" id="menu"></i></a>
+		</header>
+		<section class="date">
+			<p><strong>9.2%+0.5%</strong></p>
+			<p class="date-item">9.7%(9.2%+活动加息0.5%)</p>
+		</section>
+		<div class="touzi">
+			<p>1000元起投</p>
+			<p>期限180天</p>
+		</div>
+		<section class="service">
+			<p><i class="iconfont icon-xiaoxi"></i>省级律所法律支持</p>
+			<p><i class="iconfont icon-xiaoxi"></i>浙大友创战略入股</p>
+			<p><i class="iconfont icon-xiaoxi"></i>招财猫易贷严风控</p>
+			<p><i class="iconfont icon-xiaoxi"></i>风险千万级保障金</p>
+		</section>
+		<section class="proccess">
+			<div class="pro-wrap">
+				<div class="pro-front"></div>
+				<div class="pro-block">30%</div>
+			</div>
+			<p class="pro-info" >
+				<span>已投资<em>37</em>人</span>
+				<span>剩余可投<em>623000</em>元</span>
+			</p>
+		</section>
+		<section class="footerlink">
+			<p><a href="">查看项目详情></a></p>
+		</section>
+		<footer>
+			<a href="" class="earnings">收益估算</a>
+			<a href="" class="inveatment">立即投资</a>
+		</footer>
+		
+		<div id="mask">
+			
+			<div class="nav">
+				<a href="">
+					<i class="iconfont icon-zhuye"></i>  
+					<span>主页</span>  
+				</a>
+				<a href="">
+					<i class="iconfont icon-suo"></i>  
+					<span>安全保障</span>  
+				</a>
+				<a href="">
+					<i class="iconfont icon-touzi"></i>  
+					<span>我要投资</span>  
+				</a>
+				<a href="" class="last">
+					<i class="iconfont icon-jiaruwomen"></i>  
+					<span>帐户中心</span>  
+				</a>
+			</div>
+			
+		</div>
+		
+		<script type="text/javascript" src="js/zepto/zepto.js"></script>
+		<script src="js/zepto/event.js"></script>
+		<script src="js/zepto/touch.js"></script>
+		<script>
+			
+			
+			
+//		$(function(){
+//			$('#menu').on('tap',function(){
+//				$("#mask").toggle();
+//			})
+//		});
+		$(function(){
+			
+				$("#menu").on("tap",function(){
+					console.info("tap");
+					
+					$("#mask").toggle();
+				})
+			});
+			
+			
+			
+		</script>
+		
+	</body>
+</html>
