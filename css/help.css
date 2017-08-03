@@ -1,0 +1,210 @@
+html,
+body,
+ul,
+li,
+ol,
+dl,
+dd,
+dt,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+form,
+fieldset,
+legend,
+img，div {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+}
+fieldset,
+img {
+  border: none;
+}
+img {
+  display: block;
+}
+address,
+caption,
+cite,
+code,
+dfn,
+th,
+var {
+  font-style: normal;
+  font-weight: normal;
+}
+ul,
+ol {
+  list-style: none;
+}
+input {
+  padding-top: 0;
+  padding-bottom: 0;
+  font-family: "微软雅黑", "SimSun";
+}
+input::-moz-focus-inner {
+  border: none;
+  padding: 0;
+}
+select,
+input {
+  vertical-align: middle;
+}
+select,
+input,
+textarea {
+  font-size: 12px;
+  margin: 0;
+}
+input[type="text"],
+input[type="password"],
+textarea {
+  outline-style: none;
+  -webkit-appearance: none;
+}
+textarea {
+  resize: none;
+}
+input,
+textarea {
+  background: none;
+  border: none;
+}
+table {
+  border-collapse: collapse;
+}
+body {
+  color: #333;
+  font: 12px/20px "SimSun", "宋体", "Arial Narrow", HELVETICA;
+  background: #fff;
+}
+a {
+  color: #666;
+  text-decoration: none;
+}
+a:hover,
+a:active,
+a:focus {
+  color: #ff8400;
+  text-decoration: none;
+}
+i,
+em {
+  font-style: initial;
+}
+html {
+  font-size: 100px;
+}
+body {
+  background: #f9f9f9;
+}
+header {
+  padding-left: 0.23rem;
+  padding-right: 0.23rem;
+  background: #FA3432;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 0.28rem;
+  height: 0.92rem;
+  color: #fff;
+}
+header .iconfont {
+  font-size: 0.28rem;
+  color: #fff;
+}
+.listwrap .item {
+  display: flex;
+  margin-top: 0.27rem;
+  margin-bottom: 0.27rem;
+  height: 0.58rem;
+  line-height: 0.58rem;
+}
+.listwrap .item .icon-icon4 {
+  font-size: 0.3rem;
+  margin-left: 0.3rem;
+  margin-right: 0.21rem;
+  width: 0.55rem;
+  height: 0.55rem;
+  line-height: 0.55rem;
+  text-align: center;
+  background: #fa9a33;
+  border-radius: 30%;
+}
+.listwrap .item .title {
+  font-size: 0.25rem;
+  color: #4c4c4c;
+  margin-right: auto;
+}
+.listwrap .item .icon-start {
+  font-size: 0.3rem;
+  margin-right: 0.38rem;
+}
+.concat {
+  background: #fff;
+  padding-left: 0.3rem;
+  padding-right: 0.3rem;
+}
+.concat .concat-body {
+  display: flex;
+  height: 1.28rem;
+  align-items: center;
+}
+.concat .concat-body .icon-dianhua {
+  color: #fff;
+  display: inline-block;
+  font-size: 0.28rem;
+  width: 0.8rem;
+  height: 0.8rem;
+  line-height: 0.8rem;
+  text-align: center;
+  margin-right: 0.28rem;
+  background: #22cfd8;
+  border-radius: 30% ;
+}
+.concat .concat-body li {
+  line-height: 1.5;
+}
+.concat .concat-body li:first-child {
+  font-size: 0.3rem;
+}
+.concat .concat-body li:first-child em {
+  color: #06A2CE;
+}
+.concat .concat-body li:last-child {
+  font-size: 0.2rem;
+  color: #969595;
+}
+footer {
+  background: #FFFFFF;
+  border-top: 1px solid #ccc;
+  height: 1.65rem;
+  text-align: center;
+  margin-top: 0.35rem;
+  line-height: 2;
+  padding-top: 0.45rem;
+}
+footer .links {
+  font-size: 0.28rem;
+}
+footer .links a {
+  color: #565555;
+  font-weight: blod;
+}
+footer .copyright {
+  font-size: 0.26rem;
+  color: #9a9b9c;
+}
